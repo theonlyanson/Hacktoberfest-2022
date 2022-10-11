@@ -1,5 +1,5 @@
 #                                                     Hacktoberfest-2022
-``
+```
 > Keep the README fresh! It's the first thing people see and will make the initial impression.
 ```
 
