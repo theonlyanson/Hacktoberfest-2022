@@ -69,14 +69,14 @@ labelfont = ('Calibri', 14)
 entryfont = ('Calibri', 14)
 
 # Connecting to the Database where all information will be stored
-connector = sqlite3.connect('Alvas_Studentmanagement.db')
+connector = sqlite3.connect('file name')
 cursor = connector.cursor()
 connector.execute("CREATE TABLE IF NOT EXISTS STUDENT_MANAGEMENT (STUDENT_ID INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, NAME TEXT, EMAIL TEXT, PHONE_NO TEXT, GENDER TEXT, DOB TEXT, STREAM TEXT)")
 # Initializing the GUI window
 main = Tk()
 main.title('Alvas Student Management System')
 main.geometry('1000x800')
-main.resizable(0, 0)
+main.resizable(0, 0) of db
 
 # Creating the background and foreground color variables
 lf_bg = 'SteelBlue'  # bg color for the left_frame
