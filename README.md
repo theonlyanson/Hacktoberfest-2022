@@ -1,6 +1,6 @@
 # Hacktoberfest-2022
 
-![Alt text]()
+![Alt text](hacktoberfest.webp)
 Create your first pull request to this repository 
 Upload Different Types of Programs in any Language
 Use this project to make your first contribution to an open source project on GitHub. Practice making your first pull request to a public repository before doing the real thing!
