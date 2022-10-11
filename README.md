@@ -1,5 +1,6 @@
 #                                                     Hacktoberfest-2022
 
+> Keep the README fresh! It's the first thing people see and will make the initial impression.
 
 ![Alt text](hacktoberfest.webp)
 ## Create your first pull request to this repository
