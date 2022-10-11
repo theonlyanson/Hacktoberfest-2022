@@ -41,10 +41,10 @@ https://hacktoberfest.digitalocean.com/
 ## If you liked working on this project, please share this project as much as you can and star this project to help as many people in opensource as you can.
 
 ## Note:
-```
-1.Don't Create Pull Request to update "readme.md" File.
 
-2.Upload or Create File in Specified Language Folder.
+>1.Don't Create Pull Request to update "readme.md" File.
 
-3.If Specified Language Folder not Found then Create Folder and then Upload or Create File.
-```
+>2.Upload or Create File in Specified Language Folder.
+
+>3.If Specified Language Folder not Found then Create Folder and then Upload or Create File.
+
