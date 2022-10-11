@@ -18,15 +18,21 @@ Hacktoberfest is a program by Digital Ocean, DEV and Github, where you can easil
 
 ### 1. Register for Hacktoberfest
 
+```
 https://hacktoberfest.digitalocean.com/
+```
 
 ### 2. Add a Program in any Language you like:
 
+```
 Add any Simple or Complex Program in any language you Like in this Repository by clicking "Add File -> Create new File".
+```
 
 ### 3. Create Pull Request:
 
+```
 Once you have completed these steps, you are ready to start contributing by clicking on Create Pull Request.
+```
 
 ### 4. Give this Project a Star:
 
