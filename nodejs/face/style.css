@@ -1,0 +1,23 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+section {
+  height: 100vh;
+  overflow: hidden;
+  background: black;
+}
+p {
+  position: relative;
+  font-size: 1.5em;
+  letter-spacing: -0.05em;
+  line-height: 0.7em;
+  background: url(./download.jpeg);
+  background-blend-mode: color-dodge;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: 100rem;
+  -webkit-background-clip: text;
+  color: transparent;
+}
