@@ -1,11 +1,11 @@
 #                                                     Hacktoberfest-2022
 ```php
-Keep the README fresh! It's the first thing people see and will make the initial impression.
+Avoid editting this file...
 ```
 
 ![Alt text](hacktoberfest.webp)
 
-## Create your first pull request to this repository
+## Create your HacktoberFest pull request to this repository
 
 
 # Upload Different Types of Programs in any Language
@@ -48,7 +48,7 @@ https://hacktoberfest.digitalocean.com/
 
 >3.If Specified Language Folder not Found then Create Folder and then Upload or Create File.
 
-# Contributors:
+
 
 
 
