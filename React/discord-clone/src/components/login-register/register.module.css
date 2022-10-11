@@ -1,0 +1,141 @@
+.loginParentContainer {
+    color: #fff;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: #36393f;
+}
+
+.loginChildContainer {
+    width: 92%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #36393f;
+}
+
+.loginChildContainer .icon {
+    padding-right: 1rem;
+}
+
+.loginChildContainer .welcomeMessage {
+    margin: 2rem 0 0 0;
+}
+
+.loginChildContainer p {
+    margin-top: 0.5rem;
+    color: #b9bbbe;
+}
+
+.loginChildContainer form {
+    margin-top: 1rem;
+    align-self: flex-start;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-start;
+}
+
+.loginChildContainer label {
+    font-size: 0.75rem;
+    font-stretch: expanded;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #b9bbbe;
+    margin-bottom: 0.5rem;
+}
+
+.loginChildContainer form input {
+    border-radius: 0.2rem;
+    width: 100%;
+    background-color: #202225;
+    border: none;
+    outline: none;
+    padding: 0.8rem 0.5rem;
+    margin-bottom: 1.5rem;
+    color: #b9bbbe;
+}
+
+.loginChildContainer input[type="password"] {
+    margin-bottom: 0.5rem;
+}
+
+.loginChildContainer input[type="checkbox"] {
+    cursor: pointer;
+    display: inline-block;
+    width: 2rem;
+}
+
+.loginChildContainer .checkboxContainer {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.5rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+.checkboxContainer label {
+    font-size: 0.57rem;
+    font-weight: 200;
+    max-width: 35em;
+}
+
+.loginChildContainer input[type="checkbox"] {
+    display: inline;
+    width: 2rem;
+    transform: scale(2);
+}
+
+.loginChildContainer form p {
+    text-align: start;
+    line-height: 1rem;
+    font-size: 0.8rem;
+}
+
+.loginChildContainer .alreadyAccount {
+    color: #00aff4;
+    margin: 0.5rem 0;
+}
+
+.loginChildContainer span {
+    color: #00aff4;
+}
+
+.loginChildContainer form button {
+    color: #fff;
+    margin-top: 0.5rem;
+    padding: 0.9rem;
+    width: 100%;
+    border-radius: 0.2rem;
+    border: none;
+    outline: none;
+    background-color: #5865f2;
+}
+
+@media only screen and (min-width: 485px) {
+    .loginParentContainer {
+        background-color: transparent;
+        background-image: url("../../assets/login_bg.svg");
+        align-items: center;
+    }
+
+    .loginParentContainer > div {
+        width: fit-content;
+        min-height: 0;
+        align-items: center;
+        border-radius: 0.5rem;
+        padding: 2rem;
+        gap: 2rem;
+    }
+
+    .loginChildContainer {
+        border-radius: 0.5rem;
+        width: 30em;
+    }
+
+    .loginChildContainer .icon {
+        display: none;
+    }
+}

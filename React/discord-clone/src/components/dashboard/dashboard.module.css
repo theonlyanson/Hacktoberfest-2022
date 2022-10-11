@@ -1,0 +1,47 @@
+.parentContainer {
+    display: flex;
+    max-height: 100vh;
+}
+
+.sideNavbar {
+    height: 100vh;
+    background-color: #202225;
+    width: 4.5rem;
+}
+
+.childContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.topNavbar {
+    width: calc(100vw - 4.5rem);
+    background-color: #36393f;
+    display: flex;
+    min-height: 3rem;
+    border-bottom: 2px solid rgb(37, 36, 36);
+}
+
+.topNavbar > div {
+    background-color: #2f3136;
+    width: 15rem;
+}
+
+.contentContainer {
+    display: flex;
+    background-color: #2f3136;
+    height: calc(100vh - 3rem);
+}
+
+.container1 {
+    width: 15rem;
+}
+
+.container2 {
+    width: calc(100vw - 34.5rem);
+    background-color: #36393f;
+}
+
+.container3 {
+    width: 15rem;
+}

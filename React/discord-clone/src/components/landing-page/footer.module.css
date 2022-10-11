@@ -1,0 +1,118 @@
+.footer {
+    color: #dcddde;
+    background-color: #23272a;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #dcddde;
+}
+
+.gridContainer {
+    width: 100%;
+    padding-bottom: 1rem;
+    margin-top: 5rem;
+    max-width: 84em;
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: 2fr repeat(4, 1fr);
+    border-bottom: 2px solid #5865f2;
+}
+
+.gridContainer > div {
+    padding-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+
+.gridContainer h1 {
+    color: #5865f2;
+    font-size: 3rem;
+    padding: 0;
+    margin: 0;
+}
+
+.gridContainer select {
+    color: #dcddde;
+    border: none;
+    width: 7rem;
+    margin: 1rem 0;
+    background-color: #23272a;
+}
+
+.gridContainer .mediaIcons {
+    width: 10rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.gridContainer p {
+    color: #5865f2;
+}
+
+.gridContainer ul {
+    gap: 1rem;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.footerNav {
+    width: 82em;
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footerNav button {
+    padding: 0.7rem 1rem;
+    color: #dcddde;
+    background-color: #5865f2;
+    border-radius: 1.2rem;
+    border: none;
+}
+
+.footerNav button:hover {
+    cursor: pointer;
+    box-shadow: 0px 1px 3px rgb(90, 89, 89);
+}
+
+@media only screen and (max-width: 84em) {
+    .gridContainer {
+        width: 90%;
+    }
+
+    .footerNav {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .gridContainer {
+        grid-template-columns: 2fr repeat(2, 1fr);
+        row-gap: 0;
+    }
+
+    .gridContainer .footermain {
+        grid-row: span 2;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .gridContainer {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 2;
+        row-gap: 2rem;
+    }
+
+    .gridContainer .footermain {
+        grid-column: span 2;
+    }
+}
