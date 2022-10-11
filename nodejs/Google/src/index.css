@@ -1,0 +1,9 @@
+.text-content {
+    opacity: 1;
+    transform: translateY(20px);
+    transition: all 0.5s ease-in-out;
+}
+.text-appear{
+    opacity: 1;
+    transform: translateY(0px);
+}
