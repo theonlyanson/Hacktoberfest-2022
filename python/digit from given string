@@ -1,0 +1,6 @@
+a=('python1234')
+b=''
+for i in a:
+  if '0'<=i<='9':
+      b+=i
+ print(b)
