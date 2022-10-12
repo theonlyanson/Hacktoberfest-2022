@@ -55,9 +55,7 @@ https://hacktoberfest.digitalocean.com/
   <img src="https://contrib.rocks/image?repo=theonlyanson/Hacktoberfest-2022" />
 </a>
 
-<!--
-Made with [contrib.rocks](https://contrib.rocks).
--->
+
 
 
 
