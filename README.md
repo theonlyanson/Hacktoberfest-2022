@@ -49,7 +49,9 @@ https://hacktoberfest.digitalocean.com/
 >3.If Specified Language Folder not Found then Create Folder and then Upload or Create File.
 
 
-# CONTRIBUTERS LIST:
+## Contributors ✨
+
+###Thanks go to these wonderful people...
 
 <a href="https://github.com/theonlyanson/Hacktoberfest-2022/graphs/contributors">
   
