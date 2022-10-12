@@ -1,0 +1,5 @@
+A=[10,20,30,40]
+h=[]
+for i in range (len (a)-1,0-1,-1):
+  h+=[A[i]]
+print(h)
