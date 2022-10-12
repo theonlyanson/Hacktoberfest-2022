@@ -60,8 +60,6 @@ https://hacktoberfest.digitalocean.com/
 </a>
 
 
-[![](https://www.github.com/theonlyanson/Hacktoberfest-2022/html-react-parser/contributors.svg?width=890&button=false)](https://github.com/theonluanson/Hacktoberfest-2022/graphs/contributors)
-
 
 
 
