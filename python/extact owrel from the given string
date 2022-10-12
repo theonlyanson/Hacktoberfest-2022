@@ -1,0 +1,8 @@
+A=['python is easy']
+i=0
+s=''
+while i<len(a):
+  i+a[i] in 'AEIOUaeiou'
+    s+=A[i]
+    i+=1
+print(s)
