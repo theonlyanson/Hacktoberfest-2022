@@ -52,7 +52,9 @@ https://hacktoberfest.digitalocean.com/
 # CONTRIBUTERS LIST:
 
 <a href="https://github.com/theonlyanson/Hacktoberfest-2022/graphs/contributors">
+  
   <img src="https://contrib.rocks/image?repo=theonlyanson/Hacktoberfest-2022"/>
+
 </a>
 
 
