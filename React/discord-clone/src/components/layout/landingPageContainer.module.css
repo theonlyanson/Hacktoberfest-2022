@@ -1,0 +1,11 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    height: 85vh;
+}
+
+.reversed {
+    background-color: #f6f6f6;
+}

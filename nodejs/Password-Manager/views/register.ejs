@@ -1,0 +1,12 @@
+<%- include("header") -%>
+
+<h1 class="animate-pulse">Register</h1>
+<form class="form" autocomplete="off" action="/register" method="post">
+    <input placeholder="email" name="email"/>
+    <input placeholder="password" autocomplete="off" type="password" id="myInput" name="password"/>
+    <input placeholder="confirm password" type="password" autocomplete="off" id="myInput" name="cnf"/>
+    <button name="title" value="<%=title%>" class="animate-pulse antialiased border border-slate-300 transition ease-in-out bg-slate-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 hover:animate-none" style="font-size: x-large;font-weight: 600;display:block;text-align:center;padding:2px 50px;background-color:transparent;border-radius: 8px;" type="submit">Register</button>
+    <a class="transition ease-in-out  hover:-translate-y-1 hover:scale-110 hover:animate-none" href="/login">Login--></a>
+</form>
+
+<%- include("footer") -%>

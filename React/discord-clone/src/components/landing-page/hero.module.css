@@ -1,0 +1,134 @@
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    background-color: #404eed;
+    min-height: 80vh;
+    background-image: url("../../assets/landing_page/right_bg_landing_header.svg"),
+        url("../../assets/landing_page/left_bg_landing_header.svg"),
+        url("../../assets/landing_page/center_bg_landing_header.svg");
+    background-repeat: no-repeat;
+    background-size: auto, 700px, auto;
+    background-position: 120% 100%, -20% 100%, center bottom;
+}
+
+.hero .info {
+    width: 50%;
+    margin-top: 4rem;
+}
+
+.hero h1 {
+    margin: 0;
+    font-size: 4rem;
+    font-weight: 800;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 2rem;
+}
+
+.hero h3 {
+    font-size: 1.1rem;
+    display: inline-block;
+    font-weight: 400;
+}
+
+.hero .buttons {
+    gap: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.buttons button {
+    display: flex;
+    align-items: center;
+    gap: 0.2rem;
+    border: none;
+    border-radius: 2rem;
+    padding: 0 2rem;
+    background-color: #fff;
+}
+
+.buttons .download:hover {
+    cursor: pointer;
+    color: #9e65f2;
+    box-shadow: 0px 1px 3px rgb(90, 89, 89);
+}
+
+.hero .openInBrowser {
+    cursor: pointer;
+    background-color: #23272a;
+    color: #fff;
+}
+
+.hero .openInBrowser:hover {
+    background-color: #36393f;
+    color: #fff;
+}
+
+.hero .leftbg {
+    display: none;
+}
+
+@media only screen and (max-width: 1250px) {
+    .hero {
+        background-image: url("../../assets/landing_page/right_bg_landing_header.svg"),
+            url("../../assets/landing_page/center_bg_landing_header.svg");
+        min-height: 90vh;
+    }
+
+    .hero .info {
+        box-sizing: border-box;
+        padding-right: 40%;
+        width: 90%;
+        text-align: start;
+    }
+
+    .hero .buttons {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 760px) {
+    .hero {
+        background-image: none;
+        min-height: 90vh;
+    }
+
+    .hero .info {
+        box-sizing: border-box;
+        padding-right: 0;
+        width: 90%;
+    }
+
+    .hero .info h1 {
+        font-size: 2rem;
+    }
+
+    .hero .info p {
+        font-size: 1rem;
+    }
+
+    .hero .buttons {
+        font-size: 1rem;
+        gap: 1rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .hero .leftbg {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 670px) {
+    .hero .buttons {
+        flex-direction: column;
+    }
+}

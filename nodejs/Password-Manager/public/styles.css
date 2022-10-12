@@ -1,0 +1,90 @@
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: linear-gradient(to bottom right,hsl(222.22,47.37%,11.18%)80%,rgb(19, 19, 19));
+    height: 100vh;
+    display: flex;
+    color: whitesmoke;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+h1{
+    font-size: xx-large!important;
+    font-family: 'Anonymous Pro', monospace;
+    font-weight: 900!important;
+}
+a:hover{
+    text-decoration: none;
+    color: azure;
+    font-weight: 900;
+}
+.succ{
+    text-align: center;
+    margin-bottom: 3%;
+}
+table, th, td {
+  border:1px solid whitesmoke;
+}
+
+.btns{
+    display: flex;
+    gap: 5px;
+}
+
+.form{
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70%;
+    align-items: center;
+    gap: 1rem;
+    border: 2px solid snow;
+    border-radius: 10px;
+    box-shadow: 2px 1px 1px whitesmoke;
+}
+input{
+    width: 30%;
+    padding: 0.5% 1%!important;
+    border-radius: 10px;
+    color: hsl(222.22,47.37%,11.18%)!important;
+    font-family: 'Roboto', sans-serif;
+    font-weight:700 !important;;
+}
+button:hover{
+    background-color: whitesmoke!important;
+    color: hsl(222.22,47.37%,11.18%);
+}
+.succ-bt{
+    width: 100%!important;
+    display: block;
+}
+
+@media (max-width:750px){
+    .form{
+        width:90%;
+    }
+    input{
+        width: 45%;
+    }
+    button{
+        padding:0.5% 10%!important;
+        font-size: larger!important;
+    }
+    .succ{
+        font-size: x-large!important;
+    }
+
+}
+@media (max-width:350px){
+
+    input{
+        width: 60%;
+    }
+}
+/* background-color: rgb(25,25,25);  */

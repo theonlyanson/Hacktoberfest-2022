@@ -1,0 +1,90 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+hr {
+    width: 2rem;
+    margin: 0;
+}
+
+.icon {
+    margin-top: 0.8rem;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    background-color: #36393f;
+    overflow: hidden;
+    animation: iconHoverOut 0.5s forwards;
+    animation-timing-function: cubic-bezier(0.01, 0.07, 0.87, 1.05);
+}
+
+.icon:hover {
+    animation: iconHover 0.5s forwards;
+    animation-timing-function: cubic-bezier(0, -1.32, 0.48, 0.82);
+}
+
+@keyframes iconHover {
+    0% {
+        border-radius: 50%;
+        background-color: #36393f;
+    }
+
+    100% {
+        border-radius: 1rem;
+        background-color: #5865f2;
+    }
+}
+
+@keyframes iconHoverOut {
+    0% {
+        border-radius: 1rem;
+    }
+
+    100% {
+        border-radius: 50%;
+    }
+}
+
+.icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.icon .serverName {
+    display: none;
+}
+
+.discordIcon {
+    background: url("./discord_logo.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-bottom: 0.5rem;
+}
+
+.addServerIcon {
+    background: url("./plus.svg");
+    background-color: #36393f;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 20px;
+}
+
+.exploreServerIcon {
+    background: url("./explore.svg");
+    background-color: #36393f;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 25px;
+}
+
+.downloadAppsIcon {
+    background: url("./downloadAppIcon.svg");
+    background-color: #36393f;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 25px;
+}

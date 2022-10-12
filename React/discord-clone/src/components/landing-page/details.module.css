@@ -1,0 +1,63 @@
+.detailsContainer {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+}
+
+.svg {
+    width: 50em;
+}
+
+.details {
+    width: 30em;
+    text-align: start;
+}
+
+.details h1 {
+    font-size: 3rem;
+}
+
+.details p {
+    font-size: 1.3rem;
+    line-height: 2rem;
+    font-weight: 400;
+    color: #23272a;
+}
+
+.reversed {
+    flex-direction: row-reverse;
+}
+
+@media only screen and (max-width: 1000px) {
+    .svg {
+        width: 45em;
+    }
+    .details {
+        width: 40em;
+    }
+}
+@media only screen and (max-width: 760px) {
+    .detailsContainer {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .svg {
+        width: 90%;
+    }
+    .details {
+        width: 90%;
+    }
+
+    .details h1 {
+        font-size: 1.5rem;
+    }
+
+    .details p {
+        font-size: 1rem;
+        font-weight: 400;
+    }
+}
