@@ -51,7 +51,7 @@ https://hacktoberfest.digitalocean.com/
 
 # Contributors:
 
-<a href = "https://github.com/Tanu-N-Prabhu/Python/graphs/contributors">
+<a href = "https://github.com/theonlyanson/Hacktoberfest-2022/graphs/contributors">
   <img src = "https://contrib.rocks/image?repo = theonlyanson/Hacktoberfest-2022/>
 </a>
 
