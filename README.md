@@ -2,7 +2,6 @@
 ```php
 Avoid editting this file...
 ```
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=theonlyanson/Hacktoberfest-2022&theme=hacker)](https://git.io/streak-stats)
 
 ![Alt text](hacktoberfest.webp)
 
