@@ -1,0 +1,9 @@
+<%- include("header") -%>
+
+<h1 class="succ">Successfully added to your password list</h1>
+<form method="post" action="/success">
+    <div class="succ-bt">
+    <button  name="name" value="<%=name%>" class="animate-pulse antialiased border border-slate-300 transition ease-in-out bg-slate-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 hover:animate-none" style="font-size: x-large;font-weight: 600;display:block;text-align:center;padding:2px 50px;background-color:transparent;border-radius: 8px;" type="submit">Add a password</button>
+    </div>
+</form>
+<%- include("footer") -%>
