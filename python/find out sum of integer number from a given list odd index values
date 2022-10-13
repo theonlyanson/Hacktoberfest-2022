@@ -1,0 +1,7 @@
+A=[14,12,2+3j,'Hello',12,34,56,6]
+i=0
+while i<len(A)
+  if i%2!=0 and type (A(i))==int
+    s+=a[i]
+    i+=1
+ print(s)
