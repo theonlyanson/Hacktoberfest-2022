@@ -1,0 +1,133 @@
+body
+{
+  background-image: url("./maldiv.jpg")  ;
+ background-repeat: no-repeat;
+ background-size: cover;
+  height: 100vh;
+  background-attachment: fixed;
+
+
+  
+}
+
+.overlay
+{
+background-color: transparent;
+height: 100%;
+background-attachment: fixed;
+}
+.card-title
+{
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+
+justify-content: center;
+text-size-adjust: 100%;
+scroll-margin-top: 20%;
+text-align: center;
+margin-top: 20%;
+
+
+}
+.form-group
+{
+align-content: center;
+width: 50%;
+margin: 0 auto;
+float: none;
+
+background: rgb(19, 82, 82);
+opacity: 0.5;
+}
+.mgbg
+{
+/* background-image: url("ffffff.jpg"); */
+        background-repeat: no-repeat;
+        margin-top: 250px;
+        background: ghostwhite;
+        /* height: 40%; */
+        /* background-size:100%; */
+       
+        
+
+        
+    
+}
+.booking
+{
+align-content: center;
+width: 50%;
+margin: 0 auto;
+float: none;
+scroll-margin-top: 20%;
+justify-content: center;
+font-weight: bold;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-style: italic;
+
+}
+.review
+{
+align-content: center;
+width: 50%;
+margin: 0 auto;
+float: none;
+scroll-margin-top: 20%;
+justify-content: center;
+font-weight: bold;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-style: italic;
+}
+.row
+{
+text-align-last: center;
+font-size: 40px;
+text-decoration-color: goldenrod;
+}
+.mnh
+{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+text-decoration-color: rgb(81, 166, 187);
+font-weight: bold;
+color-interpolation-filters: linearRGB;
+background-repeat: no-repeat;
+height:50vh;
+/* background: white; */
+
+}
+.ffqe
+{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+text-decoration-color: rgb(81, 166, 187);
+font-weight: bolder;
+font-size: large;
+color-interpolation-filters: linearRGB;
+background-repeat: no-repeat;
+height:50vh ;
+/* background: white; */
+
+}
+.fff
+{
+ height: 20vh;
+ width: 100px; 
+padding-right: 10%; 
+}
+.ggg
+{
+ height: 20vh;
+ width: 100px; 
+padding-right: 10%; 
+}
+.hhh
+{
+ height: 20vh;
+ width: 1000%; 
+padding-right: 10%; 
+}
+.iii
+{
+ height: 20vh;
+ width: 100px; 
+padding-right: 10%; 
+}
