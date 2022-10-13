@@ -1,5 +1,5 @@
 # Hacktoberfest-2022
-```php
+```bash
 Avoid editting this file...
 ```
 
