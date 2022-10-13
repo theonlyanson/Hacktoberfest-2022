@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container ag">
+        <form action="" method="POST" >
+            <div class="row mt-4">
+              
+              <div class="col-sm-6">
+                <h3>Subjects</h3>
+               
+              </div>
+              <div class="col-sm-6">
+                <h3>Marks</h3>
+                </div>
+              
+            </div>
+            <hr>
+            <div class="form-group row">
+             
+              <div class="col-sm-6">
+                <h4>ADE</h4>
+              </div>
+              <div class="col-sm-6">
+                <input type="text" name="ade_mrk" class="form-control form-control-lg" id="colFormLabelSm" placeholder="">
+              </div>
+            </div>
+            <hr>
+            </div>
+            <hr>
+            <div class="form-group row mt-4">
+             
+                <div class="col-sm-6">
+                  <h4>DSA</h4>
+                </div>
+                <div class="col-sm-6">
+                  <input type="text" name="dsa_mrk" class="form-control form-control-lg" id="colFormLabelSm" placeholder="">
+                </div>
+              </div>
+              <hr>
+              </div>
+              <hr>
+              <div class="form-group row">
+             
+                <div class="col-sm-6">
+                  <h4>CO</h4>
+                </div>
+                <div class="col-sm-6">
+                  <input type="text" name="co_mrk" class="form-control form-control-lg" id="colFormLabelSm" placeholder="">
+                </div>
+              </div>
+              <hr>
+              </div>
+              <hr><div class="form-group row">
+             
+                <div class="col-sm-6">
+                  <h4>DMS</h4>
+                </div>
+                <div class="col-sm-6">
+                  <input type="text" name="dms_mrk" class="form-control form-control-lg" id="colFormLabelSm" placeholder="">
+                </div>
+              </div>
+              <hr>
+              </div>
+              <hr>
+              <div class="form-group row">
+             
+                <div class="col-sm-6">
+                  <h4>Math</h4>
+                </div>
+                <div class="col-sm-6">
+                  <input type="text" name="math_mrk" class="form-control form-control-lg" id="colFormLabelSm" placeholder="">
+                </div>
+              </div>
+              <hr>
+              </div>
+              <hr>
+            </form>
+        </div>
+              
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+</body>
+</html>
