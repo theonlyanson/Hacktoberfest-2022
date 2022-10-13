@@ -1,0 +1,6 @@
+a=[(1,2),2,(67,89)]
+g=[]
+for i in range (0,len (a)):
+  if type(a[i])==tuple
+    g+=[a[i]]
+ print(g)

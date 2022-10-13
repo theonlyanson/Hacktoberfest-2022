@@ -1,0 +1,172 @@
+.loginParentContainer {
+    color: #fff;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.loginParentContainer > div {
+    background-color: #36393f;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.loginChildContainer {
+    width: 92%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #36393f;
+}
+
+a {
+    text-decoration: none;
+}
+
+.qrcode {
+    display: none;
+}
+
+.loginChildContainer .icon {
+    padding-right: 1rem;
+}
+
+.loginChildContainer .welcomeMessage h2 {
+    margin: 0;
+}
+
+.loginChildContainer p {
+    margin-top: 0.5rem;
+    color: #b9bbbe;
+}
+
+.loginChildContainer form {
+    margin-top: 1rem;
+    align-self: flex-start;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-start;
+}
+
+.loginChildContainer label {
+    font-size: 0.75rem;
+    font-stretch: expanded;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #b9bbbe;
+    margin-bottom: 0.5rem;
+}
+
+.loginChildContainer form input {
+    border-radius: 0.2rem;
+    width: 100%;
+    background-color: #202225;
+    border: none;
+    outline: none;
+    padding: 0.8rem 0.5rem;
+    margin-bottom: 1.5rem;
+    color: #b9bbbe;
+}
+
+.loginChildContainer input[type="password"] {
+    margin-bottom: 0.5rem;
+}
+
+.loginChildContainer form p {
+    font-size: 0.8rem;
+}
+
+.loginChildContainer .forgotPass {
+    color: #00aff4;
+    margin: 0;
+}
+
+.loginChildContainer form button {
+    color: #fff;
+    margin-top: 1.5rem;
+    padding: 0.9rem;
+    width: 100%;
+    border-radius: 0.2rem;
+    border: none;
+    outline: none;
+    background-color: #5865f2;
+}
+
+.loginChildContainer form span {
+    color: #00aff4;
+}
+
+@media only screen and (min-width: 485px) {
+    .loginParentContainer {
+        background-color: transparent;
+        background-image: url("../../assets/login_bg.svg");
+        align-items: center;
+    }
+
+    .loginParentContainer > div {
+        width: fit-content;
+        min-height: 0;
+        flex-direction: row;
+        align-items: center;
+        border-radius: 0.5rem;
+        padding: 2rem;
+        gap: 2rem;
+    }
+
+    .loginChildContainer {
+        border-radius: 0.5rem;
+        width: 30em;
+    }
+
+    .loginChildContainer .icon {
+        display: none;
+    }
+
+    .qrcode {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .qrcode {
+        border-radius: 0.5rem;
+        display: block;
+        width: 20em;
+    }
+
+    .qrcode .qrcodeImg {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 180px;
+        height: 180px;
+        margin: 0 auto;
+        padding: 0.5rem;
+        background-color: #fff;
+        border-radius: 0.3rem;
+        background-image: url("../../assets/qr_code.png");
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .qrcode .qrcodeImg img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .qrcode h2 {
+        margin: 1rem auto;
+        width: 12rem;
+    }
+    .qrcode p {
+        margin: 1rem auto;
+        width: 17rem;
+    }
+
+    .qrcode p {
+        color: #b9bbbe;
+    }
+}

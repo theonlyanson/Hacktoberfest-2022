@@ -1,5 +1,5 @@
-#                                                     Hacktoberfest-2022
-```php
+# Hacktoberfest-2022
+```bash
 Avoid editting this file...
 ```
 
@@ -47,6 +47,20 @@ https://hacktoberfest.digitalocean.com/
 >2.Upload or Create File in Specified Language Folder.
 
 >3.If Specified Language Folder not Found then Create Folder and then Upload or Create File.
+
+
+
+## Contributors ✨
+
+### Thanks go to these wonderful people...
+
+<a href="https://github.com/theonlyanson/Hacktoberfest-2022/graphs/contributors">
+  
+  <img src="https://contrib.rocks/image?repo=theonlyanson/Hacktoberfest-2022"/>
+
+</a>
+
+
 
 
 
