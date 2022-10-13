@@ -1,6 +1,1 @@
-<?xml version="1.0" encoding="iso-8859-1"?>
-
-<svg class="circleIcon-3489FI" aria-hidden="true" role="img" width="24" height="24" viewBox="0 0 24 24" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	style="enable-background:new 0 0 512 512;" xml:space="preserve">
-    <path fill="#43b581" fill-rule="evenodd" clip-rule="evenodd" d="M16.293 9.293L17.707 10.707L12 16.414L6.29297 10.707L7.70697 9.293L11 12.586V2H13V12.586L16.293 9.293ZM18 20V18H20V20C20 21.102 19.104 22 18 22H6C4.896 22 4 21.102 4 20V18H6V20H18Z"></path>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="Capa_1" width="24" height="24" x="0" y="0" aria-hidden="true" style="enable-background:new 0 0 512 512" class="circleIcon-3489FI" role="img" version="1.1" viewBox="0 0 24 24" xml:space="preserve"><path fill="#43b581" fill-rule="evenodd" d="M16.293 9.293L17.707 10.707L12 16.414L6.29297 10.707L7.70697 9.293L11 12.586V2H13V12.586L16.293 9.293ZM18 20V18H20V20C20 21.102 19.104 22 18 22H6C4.896 22 4 21.102 4 20V18H6V20H18Z" clip-rule="evenodd"/></svg>
