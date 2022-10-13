@@ -53,13 +53,13 @@ https://hacktoberfest.digitalocean.com/
 ## Contributors ✨
 
 ### Thanks go to these wonderful people...
-<!--
+
 <a href="https://github.com/theonlyanson/Hacktoberfest-2022/graphs/contributors">
   
   <img src="https://contrib.rocks/image?repo=theonlyanson/Hacktoberfest-2022"/>
 
 </a>
--->
+
 
 
 
