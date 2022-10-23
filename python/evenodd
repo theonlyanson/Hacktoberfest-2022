@@ -1,5 +1,15 @@
-um = int(input("Enter a number: "))
-if (num % 2) == 0:
-   print("{0} is Even".format(num))
+def evenodd(num):
+    if(num%2==0):
+        return True
+    elif(num %2 != 0):
+        return False
+    else:
+        return evenodd(num)
+num=int(input("enter the number"))
+if(evenodd(num)):
+    print(num,"number is even")
 else:
-   print("{0} is Odd".format(num))
+    print(num,"number is odd")
+
+        
+   
