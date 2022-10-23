@@ -1,8 +1,9 @@
 
-x = 5
-y = 10
-temp = x
-x = y
-y = temp
-print('The value of x after swapping: {}'.format(x))
-print('The value of y after swapping: {}'.format(y))
+x = int(input("enter X"))
+y = int(input("enter Y"))
+x = x ^ y
+y = x ^ y
+x = x ^ y
+ 
+print("Value of x:", x)
+print("Value of y:", y)
