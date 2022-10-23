@@ -1,53 +1,38 @@
-#include<iostream>
-using namespace std;
+#include <bits/stdc++.h> 
+using namespace std; 
 
-class Node{
-    public:
-        int data;
-        Node *next;
-
-        void insert(Node*& head, int data){
-            Node* new_node = new Node();
-            new_node->data = data;
-            new_node->next = head;
-            head = new_node;
-            return;
-        }
-        void reverse(Node *& head){
-            if(head==NULL)
-                return;
-            Node* current = head;
-            Node* prev = NULL;
-            Node* temp = current->next;
-            while(current){
-                temp = current->next;
-                current->next = prev;
-                prev = current;
-                head = prev;
-                current = temp;
-            }
-        }
-        void displayList(Node*& head){
-            Node* temp = head;
-            while(temp!=NULL){
-                cout<<temp->data<<" ";
-                temp = temp->next;
-            }
-            cout<<endl;
-        }
+struct Node{
+    int data;
+    Node* next;
+    Node(int x){
+        data=x;
+        next=NULL;
+    }
 };
-int main(){
-    Node* head = NULL;
-    head->insert(head,5);
-    head->insert(head,15);
-    head->insert(head,25);
-    head->insert(head,35);
-    head->insert(head,45);
-    head->insert(head,55);
-    cout<<"Linked List: ";
-    head->displayList(head);
-    head->reverse(head);
-    cout<<"Reversed Linked List: ";
-    head->displayList(head);
-    return 0;
+
+void printlist(Node *head){
+    Node *curr=head;
+    while(curr!=NULL){
+        cout<<curr->data<<" ";
+        curr=curr->next;
+    }cout<<endl;
 }
+Node *recRevL(Node *head){
+    if(head==NULL||head->next==NULL)return head;
+    Node *rest_head=recRevL(head->next);
+    Node *rest_tail=head->next;
+    rest_tail->next=head;
+    head->next=NULL;
+    return rest_head;
+}
+
+int main() 
+{ 
+	Node *head=new Node(10);
+	head->next=new Node(20);
+	head->next->next=new Node(30);
+	printlist(head);
+	head=recRevL(head);
+	printlist(head);
+	return 0;
+} 
