@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width", initial-scale= "1.0">
+    <title> Welcome to My web-page </title>
+    <link rel="stylesheet" href="styles/styles.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Mate+SC&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <div id="hero">
+     <div class="container">
+      <div class="info">
+        <h1> SPACE and BEYOND </h1>
+        <p> Most astronomers believe the Universe began in a Big Bang about 14 billion years ago. At that time, the entire Universe was inside a bubble that was thousands of times smaller than a pinhead. It was hotter and denser than anything we can imagine.
+            <br><br>
+Then it suddenly exploded. The Universe that we know was born. Time, space and matter all began with the Big Bang. In a fraction of a second, the Universe grew from smaller than a single atom to bigger than a galaxy. And it kept on growing at a fantastic rate. It is still expanding today.
+            <br><br>
+As the Universe expanded and cooled, energy changed into particles of matter and antimatter. These two opposite types of particles largely destroyed each other. But some matter survived. More stable particles called protons and neutrons started to form when the Universe was one second old. </p>
+        <input type="text" placeholder="Search">
+      </div>
+     </div>
+    <div class="slider">
+      <i class="fa fa-arrow-left" id="prev"> </i>
+        <div class="preview">
+          <img src="styles/bg1.jpg" class="active thumbnail">
+          <img src="styles/bg2.jpg" class="thumbnail">
+          <img src="styles/bg3.jpg" class="thumbnail">
+          <img src="styles/bg4.jpg" class="thumbnail">
+          <img src="styles/bg5.jpg" class="thumbnail">
+        </div>
+      <i class="fa fa-arrow-right" id="next"> </i>
+    </div>
+
+    <script>
+
+      var prev = document.getElementById("prev");
+      var next = document.getElementById("next");
+      var hero = document.getElementById("hero");
+      var thumbnail = document.getElementsByClassName("thumbnail");
+
+      var backgroundImg = new Array(
+          "styles/bg1.jpg",
+          "styles/bg2.jpg",
+          "styles/bg3.jpg",
+          "styles/bg4.jpg",
+          "styles/bg5.jpg",
+      );
+      let k = 0;
+      next.onclick = function(){
+        if (k<4){
+          hero.style.backgroundImage = 'url("'+backgroundImg[k+1]+'")';
+          thumbnail[k+1].classList.add("active");
+          thumbnail[k].classList.remove("active");
+          k++;
+        }
+      }
+      prev.onclick = function(){
+        if (k>0){
+          hero.style.backgroundImage = 'url("'+backgroundImg[k-1]+'")';
+          thumbnail[k-1].classList.add("active");
+          thumbnail[k].classList.remove("active");
+          k--;
+        }
+      }
+
+    </script>
+  </body>
+</html>
